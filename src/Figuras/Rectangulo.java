@@ -19,6 +19,9 @@ public class Rectangulo {
 		
 		return perimetro;
 	}
-	
-	
+
+	@Override
+	public String toString() {
+		return "Rectangulo [ancho=" + ancho + ", alto=" + alto + "]";
+	}
 }
