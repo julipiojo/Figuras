@@ -12,7 +12,13 @@ public class Rectangulo {
 		
 	}
 	
+	public Double getPerimetro() {
+	Double perimetro;
 	
+	perimetro = this.ancho*2+this.alto*2;
+		
+		return perimetro;
+	}
 	
 	
 }
